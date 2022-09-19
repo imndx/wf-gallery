@@ -65,6 +65,36 @@ export default {
                         "http://static.wildfirechat.cn/ios-voip-view.png"
                     ]
                 },
+                {
+                    category: "微信小程序端截图",
+                    images: [
+                        "http://static.wildfirechat.cn/ios-message-view.png",
+                        "http://static.wildfirechat.cn/ios-contact-view.png",
+                        "http://static.wildfirechat.cn/ios-discover-view.png",
+                        "http://static.wildfirechat.cn/ios-settings-view.png",
+                        "http://static.wildfirechat.cn/ios-messagelist-view.png",
+                        "http://static.wildfirechat.cn/ios-chat-setting-view.png",
+                        "http://static.wildfirechat.cn/ios-takephoto-view.png",
+                        "http://static.wildfirechat.cn/ios-record-voice-view.png",
+                        "http://static.wildfirechat.cn/ios-location-view.png",
+                        "http://static.wildfirechat.cn/ios-voip-view.png"
+                    ]
+                },
+                {
+                    category: "uniapp端截图",
+                    images: [
+                        "http://static.wildfirechat.cn/ios-message-view.png",
+                        "http://static.wildfirechat.cn/ios-contact-view.png",
+                        "http://static.wildfirechat.cn/ios-discover-view.png",
+                        "http://static.wildfirechat.cn/ios-settings-view.png",
+                        "http://static.wildfirechat.cn/ios-messagelist-view.png",
+                        "http://static.wildfirechat.cn/ios-chat-setting-view.png",
+                        "http://static.wildfirechat.cn/ios-takephoto-view.png",
+                        "http://static.wildfirechat.cn/ios-record-voice-view.png",
+                        "http://static.wildfirechat.cn/ios-location-view.png",
+                        "http://static.wildfirechat.cn/ios-voip-view.png"
+                    ]
+                },
             ],
             pcScreenShots: [
                 {
