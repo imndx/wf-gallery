@@ -10,7 +10,7 @@ module.exports = {
         },
         plugins: [
             new HtmlWebpackPlugin({
-                filename: 'output-single-file.html', // the output file name that will be created
+                filename: 'wf-gallery.html', // the output file name that will be created
                 template: 'src/output-template.html', // this is important - a template file to use for insertion
                 inlineSource: '.(js|css)$' // embed all javascript and css inline
             }),
