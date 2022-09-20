@@ -4,7 +4,7 @@
         <div v-for="(shot, index) in mobileScreenShots" :key="index" :id="index" class="shots-container">
             <h2 class="category">{{ shot.category }}</h2>
             <div class="mobile-images">
-                <div :id="'lightgallery-mobile-' + index">
+                <div :id="'lightgallery-mobile-' + index" style="width: 100%">
                     <a v-for="(url, i) in shot.images" :href="url" :key="i">
                         <img :alt="shot.category" :src="url"/>
                     </a>
@@ -14,7 +14,7 @@
         <div v-for="(shot, index) in pcScreenShots" :key="mobileScreenShots.length + index" :id="mobileScreenShots.length + index" class="shots-container">
             <h2 class="category">{{ shot.category }}</h2>
             <div class="pc-images">
-                <div :id="'lightgallery-pc-' + index">
+                <div :id="'lightgallery-pc-' + index" style="width: 100%">
                     <a v-for="(url, i) in shot.images" :href="url" :key="i">
                         <img :alt="shot.category" :src="url"/>
                     </a>
@@ -68,31 +68,19 @@ export default {
                 {
                     category: "微信小程序端截图",
                     images: [
-                        "https://static.wildfirechat.cn/ios-message-view.png",
-                        "https://static.wildfirechat.cn/ios-contact-view.png",
-                        "https://static.wildfirechat.cn/ios-discover-view.png",
-                        "https://static.wildfirechat.cn/ios-settings-view.png",
-                        "https://static.wildfirechat.cn/ios-messagelist-view.png",
-                        "https://static.wildfirechat.cn/ios-chat-setting-view.png",
-                        "https://static.wildfirechat.cn/ios-takephoto-view.png",
-                        "https://static.wildfirechat.cn/ios-record-voice-view.png",
-                        "https://static.wildfirechat.cn/ios-location-view.png",
-                        "https://static.wildfirechat.cn/ios-voip-view.png"
+                        "https://static.wildfirechat.cn/wx-conversation_list.png",
+                        "https://static.wildfirechat.cn/wx-conversation.png",
+                        "https://static.wildfirechat.cn/wx-conversation_1.png",
+                        "https://static.wildfirechat.cn/wx-friends.png",
                     ]
                 },
                 {
-                    category: "uniapp端截图",
+                    category: "uni-app端截图",
                     images: [
-                        "https://static.wildfirechat.cn/ios-message-view.png",
-                        "https://static.wildfirechat.cn/ios-contact-view.png",
-                        "https://static.wildfirechat.cn/ios-discover-view.png",
-                        "https://static.wildfirechat.cn/ios-settings-view.png",
-                        "https://static.wildfirechat.cn/ios-messagelist-view.png",
-                        "https://static.wildfirechat.cn/ios-chat-setting-view.png",
-                        "https://static.wildfirechat.cn/ios-takephoto-view.png",
-                        "https://static.wildfirechat.cn/ios-record-voice-view.png",
-                        "https://static.wildfirechat.cn/ios-location-view.png",
-                        "https://static.wildfirechat.cn/ios-voip-view.png"
+                        "https://static.wildfirechat.cn/uniapp_contact_tab.jpeg",
+                        "https://static.wildfirechat.cn/uniapp_conversation.jpeg",
+                        "https://static.wildfirechat.cn/uniapp_conversation_list.jpeg",
+                        "https://static.wildfirechat.cn/uniapp_user_profile.jpeg",
                     ]
                 },
             ],
